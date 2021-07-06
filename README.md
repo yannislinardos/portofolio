@@ -1,5 +1,3 @@
-# My Projects
-
 ## [Signal Quality Assessment for Reliable Fetal Heart Rate Detection Using Deep Learning](https://github.com/yannislinardos/fetalHeartrateDetection)
 
 <div style="text-align: justify">
