@@ -30,4 +30,8 @@ In machine learning, the study of generative adversarial networks (GANs) is curr
 
 ## [Satelite Capacity Allocation using Markov Decision Process](https://github.com/yannislinardos/satelite_capacity_mdp)
 
+The problem is the optimization of a satellite network controller where messages from two sources arrive. This problem can be handled as a queuing system with two independent Poisson arrival processes. The satellite network controller has no queue and has a limited capacity, therefore the messages that the controller does not admit will never be handled. With this rejection, some costs arise. Messages that are admitted will be handled for some discrete time units. The number of time units they will be handled for has a certain probability distribution. The purpose is to create a policy for the controller of the satellite network in regards to which messages it has to admit and which messages it has to reject in order to minimize the costs.
+
 ## [Nomadic Tracker Problem using Approximate Dynamic Programming](https://github.com/yannislinardos/nomadic_tracker_mdp)
+
+Assume a truck may move to 20 cities, loaded or unloaded. The truck receives a reward when it visits a city on which there is demand, otherwise it incurs a cost. Demand is random. This project is about calculating the optimal policy of the truck using approximate dynamic programming.
