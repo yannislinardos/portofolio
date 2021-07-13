@@ -32,6 +32,14 @@ Although the main target group is radiologists writing reports in the BIRADS sta
 
 In machine learning, the study of generative adversarial networks (GANs) is currently one of the most exciting topics. In brief, in GANs, the generator and the discriminator compete in a game with each other with the goal of generating new data that can pass for real data.In this project, we will explore two types of GANs - Deep Convolutional GAN (DCGAN) and CycleGAN, with more emphasis on the latter. DCGAN is used to generate emojis and CycleGAN is used to transform the style of one image to another. The results show that the cycle consistency losshas improved the results of the CycleGAN model. In the case of DCGAN, mode collapse was observed.
    </div>
+   
+ ## [Twitter Reaction on the Moscow Protests 2019](https://github.com/yannislinardos/twitterMoscowProtests)
+   <div style="text-align: justify">   
+
+Twitter is a widely used online platform for stating opinions and sharinginformation with other people. This is a research on the manner Russian users communicated through Twitter during the protests occurring in Moscow in July and August 2019. Both quantitative and qualitative analysis was conducted; twitter data was analyzed in regards to their amount in different metrics (users, hashtags, number of tweets) as well as the expressed emotions and opinions. Twitter data was compared with what happened on the streets in regards to attendance.
+
+In order to evaluate reactions on Twitter, data was taken from archive.org, a non-profit internet archive of resources, like books, videos and websites. Twitter data was downloaded for a period of 43 days (19th of July until the 31st of August 2019) from the provided archive; this includes about 2% of all actual global Twitter data as given by the Twitter API. This resulted in about 250 Gb of raw data or 83.3 Gb of compressed data. For conducting this work, Python 2.7 was used with the modules PySpark (mainly the SQL module) for data preprocessing and processing as well as NumPy and Matplotlib for evaluating and representing the results. Moreover, we used the Python modules NLTK and pymorphy2 to perform the sentimentanalysis.
+     </div>
 
 ## [Satelite Capacity Allocation using Markov Decision Process](https://github.com/yannislinardos/satelite_capacity_mdp)
 
